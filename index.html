@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Fire Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <a href="#" class="logo">Fire Box</a>
+        <ul>
+            <li>Home</li>
+            <li>Product</li>
+            <li>Forum</li>
+            <li>contact</li>
+       <li> <i class="fas fa-shopping-cart"></i></li>
+            
+        </ul>
+        <i class="fas fa-bars"></i>
+    </nav>
+    <main>
+        <h1 class="main-heading" >stylish <br> <span>comfort</span></h1>
+        <ul>
+            <li><i class="fab fa-facebook-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-youtube"></i></li>
+        </ul>
+            <div class="about-us">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dignissimos totam odio consectetur possimus nesciunt inventore! Delectus sit voluptas cupiditate, illum voluptates distinctio adipisci ducimus enim nihil ratione|
+            <br>
+            <a to="3">Read more</a>
+        </div>
+    </main>
+  
+</header>
+
+    <script>
+        var navbar = document.getElementsByClassName(navbar);
+
+        window.scroll = function() {myfunc()}
+
+        function myfunc(){
+            if(window.scrollY > 20){
+                navbar.classList.add("sticky");
+            }else{
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+</body>
+</html>
